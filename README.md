@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-BIGRoC: Boosting Image Generation via a Robust
+BIGRoC: Boosting Image Generation via a Robust Classifier
   <br>
 </h1>
 <p align="center">
