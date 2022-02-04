@@ -12,7 +12,7 @@ BIGRoC: Boosting Image Generation via a Robust
   <img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bigroc-boosting-image-generation-via-a-robust/image-generation-on-imagenet-128x128">
 </p>
 
-<h4 align="center">This repository will contain code for the paper "BIGRoC: Boosting Image Generation via a Robust"</h4>
+<h4 align="center">This repository will contain code for the paper "BIGRoC: Boosting Image Generation via a Robust Classifier"</h4>
 
 
 <p align="center">
@@ -21,7 +21,7 @@ BIGRoC: Boosting Image Generation via a Robust
 
 # BIGRoC
 
-> **BIGRoC: Boosting Image Generation via a Robust**<br>
+> **BIGRoC: Boosting Image Generation via a Robust Classifier**<br>
 > Roy Ganz, Michael Elad<br>
 >
 > **Abstract:** *The interest of the machine learning community in image synthesis has grown significantly in recent years, with the introduction of a wide range of deep generative models and means for training them.
