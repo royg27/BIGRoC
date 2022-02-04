@@ -6,9 +6,14 @@ BIGRoC: Boosting Image Generation via a Robust
 <p align="center">
   <a>Roy Ganz</a> •
   <a>Michael Elad</a>
-
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bigroc-boosting-image-generation-via-a-robust/image-generation-on-imagenet-128x128">
+</p>
+
 <h4 align="center">This repository will contain code for the paper "BIGRoC: Boosting Image Generation via a Robust"</h4>
+
 
 <p align="center">
   <img src="https://github.com/royg27/BIGRoC/blob/main/assets/teaser_adversarial_boost.png" height="120">
