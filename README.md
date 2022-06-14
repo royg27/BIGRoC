@@ -10,9 +10,10 @@ BIGRoC: Boosting Image Generation via a Robust Classifier
 
 <p align="center">
   <img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bigroc-boosting-image-generation-via-a-robust/image-generation-on-imagenet-128x128">
+  <img src="https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/bigroc-boosting-image-generation-via-a-robust/image-generation-on-imagenet-256x256">
 </p>
 
-<h4 align="center">This repository will contain code for the paper "BIGRoC: Boosting Image Generation via a Robust Classifier"</h4>
+<h4 align="center">This repository contains code for the paper "BIGRoC: Boosting Image Generation via a Robust Classifier"</h4>
 
 
 <p align="center">
@@ -32,11 +33,37 @@ We demonstrate this post-processing algorithm on various image synthesis methods
 Specifically, BIGRoC improves the image synthesis state of the art on ImageNet 128x128 by 14.81%, attaining an FID score of 2.53 and on 256x256 by 7.87%, achieving an FID of 3.63.*
 
 ## Citation
+
+Ganz, Roy, and Michael Elad. "BIGRoC: Boosting Image Generation via a Robust Classifier." arXiv preprint 	arXiv:2108.03702 (2021).
+
+>
+    @article{DBLP:journals/corr/abs-2108-03702,
+    author    = {Roy Ganz and Michael Elad},
+    title     = {BIGRoC: Boosting Image Generation via a Robust Classifier},
+    journal   = {CoRR},
+    year      = {2021}
+    }
+
+
+<h4 align="center">Preprint on ArXiv: <a href="https://arxiv.org/abs/2108.03702">2108.03702</a></h4>
     
 ## Prerequisites
 
+The entire code is contained in Colab jupiter notebook to facilitate the environment installation. Each such notebook is self-contained with the relevant package installation and explanations.
+
 ## Repository Organization
 
+|File name         | Content |
+|----------------------|------|
+|`/CIFAR10`| Notebooks for Section 5.1 - experimenting BIGRoC on CIFAR-10 image generators, both conditional and unconditional|
+|`/ImageNet`| Notebooks for Section 5.2 - experimenting BIGRoC on ImageNet 128x128 & 256x256 image generators, both conditional and unconditional|
+|`/Comparison`| Notebooks for Section 5.3 - experimenting BIGRoC on CIFAR-10 and ImageNet using SN-ResNetGAN|
+
+
 ## Credits
+* Robustness Package - [Code](https://github.com/MadryLab/robustness).
+* FID is calculated natively in PyTorch using Seitzer implementation - [Code](https://github.com/mseitzer/pytorch-fid)
+* Mimicry - [Code](https://github.com/kwotsin/mimicry), [Paper](https://arxiv.org/abs/2005.02494)
+* Guided-Diffusion - [Code](https://github.com/openai/guided-diffusion), [Paper](https://arxiv.org/abs/2105.05233)
 
 
