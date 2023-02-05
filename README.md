@@ -34,7 +34,7 @@ Specifically, BIGRoC improves the image synthesis state of the art on ImageNet 1
 
 ## Citation
 
-Ganz, Roy, and Michael Elad. "BIGRoC: Boosting Image Generation via a Robust Classifier." arXiv preprint 	arXiv:2108.03702 (2021).
+Ganz, Roy, and Michael Elad. "BIGRoC: Boosting Image Generation via a Robust Classifier." Transactions on Machine Learning Research (2023).
 
 >
     @article{
