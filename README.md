@@ -37,11 +37,15 @@ Specifically, BIGRoC improves the image synthesis state of the art on ImageNet 1
 Ganz, Roy, and Michael Elad. "BIGRoC: Boosting Image Generation via a Robust Classifier." arXiv preprint 	arXiv:2108.03702 (2021).
 
 >
-    @article{DBLP:journals/corr/abs-2108-03702,
-    author    = {Roy Ganz and Michael Elad},
-    title     = {BIGRoC: Boosting Image Generation via a Robust Classifier},
-    journal   = {CoRR},
-    year      = {2021}
+    @article{
+    ganz2022bigroc,
+    title={{BIGR}oC: Boosting Image Generation via a Robust Classifier},
+    author={Roy Ganz and Michael Elad},
+    journal={Transactions on Machine Learning Research},
+    issn={2835-8856},
+    year={2022},
+    url={https://openreview.net/forum?id=y7RGNXhGSR},
+    note={}
     }
 
 
